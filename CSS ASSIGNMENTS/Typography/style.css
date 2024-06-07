@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.upper{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-top: 10px;
+}
+.content{
+    width: 60%;
+    text-align: left;
+}
+.content p{
+    margin-top: 8px;
+    margin-bottom: 1rem;
+}
+.img{
+    padding: 15px;
+}
+.content{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.video{
+    /* margin: 15px 140px;   */
+    margin-right: 140px;
+}
+.end{
+    margin: 15px 140px;  
+}

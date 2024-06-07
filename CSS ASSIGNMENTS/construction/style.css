@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 nav{
+    
     display: flex;
     background-color: rgb(56, 55, 55);
     padding: 20px;
