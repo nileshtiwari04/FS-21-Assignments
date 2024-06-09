@@ -8,12 +8,11 @@
     width: 100vw;
     height: 100vh;
     position: relative;
-    overflow: hidden;
-   
+    
  
 
 }
-.container::after{
+/* .container::after{
     content: "hii";
     position: absolute;
     top: 0px;
@@ -22,7 +21,7 @@
     height: 100%;
     transform: skew(60deg);
     z-index: -1;
-}
+} */
 .shoe{
    background: linear-gradient(to right,purple,pink,orange);
     width: 80vw;
