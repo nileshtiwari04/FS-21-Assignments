@@ -17,6 +17,8 @@
     padding: 15px;
     position: sticky;
     top: 0;
+    background-color: white;
+
 }
 
 .header_left{
@@ -52,11 +54,13 @@
     border-radius: 5px;
     padding-left: 10px;
     height: 100%;
+    border: 1px solid gray;
     
 }
 
 .header_search button{
     margin-left: -1px;
+    border: 1px solid gray;
 }
 
 .main{
@@ -69,6 +73,7 @@
     height: 90vh;
     /* background-color: bisque; */
     position: fixed;
+    overflow-y: scroll;
 }
 .sidebar::-webkit-scrollbar{
     display:none
