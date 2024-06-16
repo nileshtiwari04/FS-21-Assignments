@@ -144,39 +144,46 @@ form{
 .upper-main{
     img{
     width: 100%;
-    height: 75%;
+    height: 85%;
     background-position: center;
     background-size: cover;
     }
 }
 
 .lower-main{
+    
     width: 100%;
-    height: 69%;
+    height: 82vh;
     display: flex;
     justify-content: center;
-    column-gap: 2.8%;
+    column-gap: 1.5%;
     background-color: #f3f3f3;
     overflow: hidden;
+    align-items: center;
     /* padding: 10%; */
     img{
-        width: 80%;
-        height: 280px;
+        width: 86%;
+        height: 260px;
         object-fit: cover;
     }
 }
+/* .cards{
+    border: 2px solid blue;
+    width: 100%;
 
+} */
 .card{
-    width: 15%;
-    height: 45vh;
+    width: 100%;
+    height: 55vh;
     background-color: white;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
     margin-top: 7%;
     margin-bottom: 5%;
-    transition: transform 0.8s;
+    
+
     h3{
         margin-top: 10%;
         margin-bottom: 4%;
@@ -194,14 +201,20 @@ form{
         top: 5%;
     }
 
-    a:hover{
-    
+   
+}
+.c:hover{
+
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
+.card:hover{
+    /* transform: scale(1.3); */
+    a{
+    text-decoration: underline;
         color: darkorange;
     }
-}
-
-.card:hover{
-    transform: scale(1.3);
 }
 
 .footer{
