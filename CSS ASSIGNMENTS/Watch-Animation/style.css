@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    width: 100;
+    justify-content: space-between;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+}
+.main img{
+    width: 400px;
+    transform-origin: center;
+    transform: perspective(800px) rotateY(20deg);
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px grey;
+    border-radius: 5px;
+}
+.main:hover img{
+    opacity: 0.3;
+}
+.main img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
