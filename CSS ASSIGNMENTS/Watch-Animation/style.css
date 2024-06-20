@@ -17,7 +17,7 @@ body{
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
 }
 .main img{
-    width: 400px;
+    width: 350px;
     transform-origin: center;
     transform: perspective(800px) rotateY(20deg);
     transition: 0.5s;
