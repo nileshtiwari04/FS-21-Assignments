@@ -1,7 +1,7 @@
-# Project Name: 🛍️Amazon Ui clone 🛒
+# Project Name: DOM🛒
 ## This Project is Created by using HTML and CSS
 
-[📌hosted link](https://nileshtiwari04.github.io/FS-21-Assignments/CSS%20ASSIGNMENTS/amazonui/index.html)
+[📌hosted link](https://nileshtiwari04.github.io/FS-21-Assignments/javascript%20Assignment/DOM_project/index.html)
 
 [📌HTML](./index.html)
 
