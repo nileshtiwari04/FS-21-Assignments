@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    /* border: 2px solid red; */
+    width: 60%;
+    /* height: 20vh; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.c{
+    border-radius: 15px;
+    padding: 3rem;
+    background-image: linear-gradient(red, yellow, green);
+    /* display: none; */
+}
