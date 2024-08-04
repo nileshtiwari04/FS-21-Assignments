@@ -1,0 +1,112 @@
+  /* Full-screen background animation */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    /* background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4); */
+    background-color: rgb(251, 255, 127);
+    background-size: 600% 600%;
+    animation: Gradient 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Container for products and cart */
+#products,
+#cart {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    height: 250px;
+}
+
+/* Styling for product items */
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.product span {
+    margin: 0 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dd5422;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Cart styling */
+#cart h3 {
+    margin-top: 0;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin: 5px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Total styling */
+#cart div {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    #products,
+    #cart {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .product {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
