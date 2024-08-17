@@ -19,7 +19,7 @@ const btn =document.getElementById("btn")
 //    console.log(data);
    
 // }
-let main = document.getElementById("main");
+let main = document.getElementById("joke");
 function updataUI(data){
    main.innerHTML = "";
     let div = document.createElement("div");
