@@ -38,7 +38,9 @@ The Phone Search App allows users to search for mobile phones and view detailed 
 
 <<<<<<< HEAD
 [HTML](./index.html)
+
 [CSS](./style.css)
+
 [Java-script](./script.js)
 
 
