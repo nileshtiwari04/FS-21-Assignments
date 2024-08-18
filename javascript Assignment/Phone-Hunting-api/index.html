@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+        <div class="nav">
+            <div class="logo">Hot Gadgets</div>
+            <div class="menu"><button class="btn">SIGN UP</button></div>
+        </div>
+    </nav>
+
+        <div class="banner">
+            <div class="content">
+            <h1>Apple Iphone 13 Pro Max</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form, by injected humou.</p>
+            <button class="btn spcialbtn">BUY NOW</button>
+        </div>
+            <div class="img">
+                <img class="imgsmall" src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%202.png" alt="">
+                <img class="imgbig" src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%201.png" alt="">
+                <img class="imgsmall" src="https://tasmim-tahsin.github.io/PhoneHuntingAPI/images/pngwing%202.png" alt="">
+            </div>
+        </div>
+          <div class="h1">
+            <h1>Search Your Phone</h1>
+          </div>
+        
+        <input type="text" id="searchField"placeholder="e.g.oppo,samsung,iphone.." />
+        <button onclick="searchHandler(false)" class="btn">Search</button>
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="phone-container"></div>
+        <button id="showALLBtn" class="hidden btn center" onclick="showBtn()">Show All</button>
+
+        <div class="footer">
+            <img src="https://weekly-test-4-pink.vercel.app/Assets/hash.gif" style="width: 150px;" alt="">
+            <p>Hot Gadgets BD</p>
+            <p>Providing reliable tech items since 1992</p>
+            <p>Copyright © NIlLESH TIWARI 2024 - All right reserved</p>
+            <div class="logos">
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-youtube"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <dialog id="my_modal">
+        <h3 id="detailsPhoneName"></h3>
+        <p id="detailsBrand"></p>
+        <p id="detailsSpec"></p>
+        <p id="releaseDate"></p>
+        <div id="imgContainer"></div>
+        <button onclick="my_modal.close()" class="btn">Close</button>
+    </dialog>
+    <script src="https://kit.fontawesome.com/41456f2dc5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
