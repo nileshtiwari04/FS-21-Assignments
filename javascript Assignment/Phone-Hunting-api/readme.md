@@ -1,8 +1,8 @@
 # Phone Search App
-# Hosted Link [Hosted link] (https://nileshtiwari04.github.io/FS-21-Assignments/javascript%20Assignment/Phone-Hunting-api/index.html).
+# Hosted Link [Hosted link](https://nileshtiwari04.github.io/FS-21-Assignments/javascript%20Assignment/Phone-Hunting-api/index.html).
 
 ## Overview
-## Overview
+
 
 The Phone Search App allows users to search for mobile phones and view detailed information about them. Users can search for phones using a search bar, view the top 12 results, and click on a "Show All" button to see more phones. Additionally, clicking on a phone card displays detailed specifications and images in a modal dialog.
 
@@ -36,9 +36,17 @@ The Phone Search App allows users to search for mobile phones and view detailed 
 4. **Close the Modal:**
    - Click the "Close" button inside the modal to close it.
 
+<<<<<<< HEAD
 [HTML](./index.html)
 [CSS](./style.css)
 [Java-script](./script.js)
 
 
 
+=======
+Phone-Hunting-api/
+├── index.html      # The main HTML file
+├── style.css      # The CSS file for styling the app
+├── script.js       # The JavaScript file for app logic
+└── readme.md       # The README file (this file)
+>>>>>>> 25bfe43376994fcf43c44240fb3e0b2cd088beab
