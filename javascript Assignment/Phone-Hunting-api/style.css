@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     /* height: 100vh; */
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    background: linear-gradient(112.1deg, rgb(37, 77, 85) 11.4%, rgb(226, 107, 9) 70.2%);
  
 }
 .nav{
@@ -21,7 +21,7 @@ body {
     width: 30%;
     font-size: 40px;
     font-weight: bolder;
-    color: rgb(117, 172, 172);
+    color: rgb(242, 56, 31);
 }
 .content{
     width: 100%;
@@ -32,21 +32,21 @@ body {
 }
 .content h1{
     font-size: 50px;
-    color: wheat;
+    color: rgb(5, 242, 183);
 }
 .content p{
     width: 60%;
     font-size: 20px;
     text-align: center;
-    color: whitesmoke;
+    color: rgb(195, 203, 202);
 }
 .spcialbtn{
     margin-top: 10px;
     width: 100px;
 }
 .btn{
-    background-color: rgb(80, 80, 233);
-    color: #fff;
+    background-color: rgb(229, 241, 14);
+    color: #0d0d0d;
     border: 0;
     border-radius: 5px;
     height: 30px;
