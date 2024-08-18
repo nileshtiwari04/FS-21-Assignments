@@ -1,5 +1,5 @@
 # Phone Search App
-# Hosted Link [Hosted link] (https://nileshtiwari04.github.io/FS-21-Assignments/javascript%20Assignment/Phone-Hunting-api/index.html).
+# Hosted Link [Hosted link](https://nileshtiwari04.github.io/FS-21-Assignments/javascript%20Assignment/Phone-Hunting-api/index.html).
 
 ## Overview
 ## Overview
