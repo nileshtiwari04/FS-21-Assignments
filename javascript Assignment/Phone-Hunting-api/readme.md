@@ -36,8 +36,9 @@ The Phone Search App allows users to search for mobile phones and view detailed 
 4. **Close the Modal:**
    - Click the "Close" button inside the modal to close it.
 
-phone-search-app/
-├── index.html      # The main HTML file
-├── style.css      # The CSS file for styling the app
-├── script.js       # The JavaScript file for app logic
-└── readme.md       # The README file (this file)
+[HTML](./index.html)
+[CSS](./style.css)
+[Java-script](./script.js)
+
+
+
