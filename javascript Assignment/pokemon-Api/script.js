@@ -16,7 +16,7 @@ filterButton.addEventListener('click', function() {
 async function fetchPokData(i) {
     let data =await fetch(`https://pokeapi.co/api/v2/pokemon/${i}`);
     let response =await data.json();
-    // console.log(response);
+    console.log(response);
     return response;
 }
 // fetchPokData();
