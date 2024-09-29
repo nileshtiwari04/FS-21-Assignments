@@ -25,7 +25,7 @@ body {
     text-align: center;
 }
 
-.progress-container {
+.Content-container {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -34,7 +34,7 @@ body {
     width: 350px;
 }
 
-.progress-container::before {
+.Content-container::before {
     content: '';
     background-color: var(--line-border-empty);
     position: absolute;
